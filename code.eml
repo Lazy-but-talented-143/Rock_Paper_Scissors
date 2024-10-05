@@ -1,0 +1,98 @@
+MIME-Version: 1.0
+Date: Sun, 29 Sep 2024 10:14:57 +0530
+Message-ID: <CALFVxOKgr_MHYKQzKee6HxD+io7Rw=8qxYTo2BTR5Hv8Hx1rFQ@mail.gmail.com>
+Subject: code
+From: durgaprasad jalasutram <jalasutramdurgaprasad123@gmail.com>
+To: jallasutramdurgaprasad@gmail.com
+Content-Type: multipart/alternative; boundary="000000000000180fe906233ac0f7"
+
+--000000000000180fe906233ac0f7
+Content-Type: text/plain; charset="UTF-8"
+
+def game():
+    print("*****************Welcome to Rock_Paper_Scissors
+Game*****************")
+    import random
+    options=["Rock","Paper","Scissor"]
+    i=random.choice(options)
+    print("Chose from the below Three options")
+    print("Rock","Paper","Scissor")
+    a=input("Enter your value:")
+    if a==i:
+        print(f"Your choice={[ a ]}:Computer choice={[ i ]} \n
+['********[Game]-<Tie>-*********']")
+    elif a=="Paper" and i =="Scissor":
+        print(f"Your choice={[ a ]}:Computer choice={[ i ]} \n
+['********[Game]-<Lose>-********']")
+    elif a=="Rock" and i=="Paper":
+        print(f"Your choice={[ a ]}:Computer choice={[ i ]} \n
+['********[Game]-<Lose>-********']")
+    elif a=="Scissor" and i=="Rock":
+        print(f"Your choice={[ a ]}:Computer choice={[ i ]} \n
+['********[Game]-<Lose>-********']")
+    elif a=="Scissor" and i=="Paper":
+        print(f"Your choice={[ a ]}:Computer choice={[ i ]} \n
+['********[Game]-<Win>-********']")
+    elif a=="Paper" and i=="Rock":
+        print(f"Your choice={[ a ]}:Computer choice={[ i ]} \n
+['********[Game]-<Win>-********']")
+    elif a=="Rock" and i=="Scissor":
+       print(f"Your choice={[ a ]}:Computer choice={[ i ]} \n
+['********[Game]-<Win>-********']")
+    else:
+       print("Enter a valid choice")
+    print("Do you want to play again?")
+    print("Yes/No")
+    b=input("Enter your choice")
+    Yes='Yes'
+    if b=='Yes' :
+        print("Ok, Don't Stop Until You Win \nKeep on Trying ")
+        return game()
+    else:
+        print("Bye, Your Win Is Postponed To Next Game \nThank you For
+Playing")
+print(game())
+
+--000000000000180fe906233ac0f7
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">def game():<br>=C2=A0 =C2=A0 print(&quot;*****************=
+Welcome to Rock_Paper_Scissors Game*****************&quot;)<br>=C2=A0 =C2=
+=A0 import random<br>=C2=A0 =C2=A0 options=3D[&quot;Rock&quot;,&quot;Paper&=
+quot;,&quot;Scissor&quot;]<br>=C2=A0 =C2=A0 i=3Drandom.choice(options)<br>=
+=C2=A0 =C2=A0 print(&quot;Chose from the below Three options&quot;)<br>=C2=
+=A0 =C2=A0 print(&quot;Rock&quot;,&quot;Paper&quot;,&quot;Scissor&quot;)<br=
+>=C2=A0 =C2=A0 a=3Dinput(&quot;Enter your value:&quot;)<br>=C2=A0 =C2=A0 if=
+ a=3D=3Di:<br>=C2=A0 =C2=A0 =C2=A0 =C2=A0 print(f&quot;Your choice=3D{[ a ]=
+}:Computer choice=3D{[ i ]} \n [&#39;********[Game]-&lt;Tie&gt;-*********&#=
+39;]&quot;)<br>=C2=A0 =C2=A0 elif a=3D=3D&quot;Paper&quot; and i =3D=3D&quo=
+t;Scissor&quot;:<br>=C2=A0 =C2=A0 =C2=A0 =C2=A0 print(f&quot;Your choice=3D=
+{[ a ]}:Computer choice=3D{[ i ]} \n [&#39;********[Game]-&lt;Lose&gt;-****=
+****&#39;]&quot;)<br>=C2=A0 =C2=A0 elif a=3D=3D&quot;Rock&quot; and i=3D=3D=
+&quot;Paper&quot;:<br>=C2=A0 =C2=A0 =C2=A0 =C2=A0 print(f&quot;Your choice=
+=3D{[ a ]}:Computer choice=3D{[ i ]} \n [&#39;********[Game]-&lt;Lose&gt;-*=
+*******&#39;]&quot;)<br>=C2=A0 =C2=A0 elif a=3D=3D&quot;Scissor&quot; and i=
+=3D=3D&quot;Rock&quot;:<br>=C2=A0 =C2=A0 =C2=A0 =C2=A0 print(f&quot;Your ch=
+oice=3D{[ a ]}:Computer choice=3D{[ i ]} \n [&#39;********[Game]-&lt;Lose&g=
+t;-********&#39;]&quot;)<br>=C2=A0 =C2=A0 elif a=3D=3D&quot;Scissor&quot; a=
+nd i=3D=3D&quot;Paper&quot;:<br>=C2=A0 =C2=A0 =C2=A0 =C2=A0 print(f&quot;Yo=
+ur choice=3D{[ a ]}:Computer choice=3D{[ i ]} \n [&#39;********[Game]-&lt;W=
+in&gt;-********&#39;]&quot;)<br>=C2=A0 =C2=A0 elif a=3D=3D&quot;Paper&quot;=
+ and i=3D=3D&quot;Rock&quot;:<br>=C2=A0 =C2=A0 =C2=A0 =C2=A0 print(f&quot;Y=
+our choice=3D{[ a ]}:Computer choice=3D{[ i ]} \n [&#39;********[Game]-&lt;=
+Win&gt;-********&#39;]&quot;)<br>=C2=A0 =C2=A0 elif a=3D=3D&quot;Rock&quot;=
+ and i=3D=3D&quot;Scissor&quot;:<br>=C2=A0 =C2=A0 =C2=A0 =C2=A0print(f&quot=
+;Your choice=3D{[ a ]}:Computer choice=3D{[ i ]} \n [&#39;********[Game]-&l=
+t;Win&gt;-********&#39;]&quot;)<br>=C2=A0 =C2=A0 else:<br>=C2=A0 =C2=A0 =C2=
+=A0 =C2=A0print(&quot;Enter a valid choice&quot;)<br>=C2=A0 =C2=A0 print(&q=
+uot;Do you want to play again?&quot;)<br>=C2=A0 =C2=A0 print(&quot;Yes/No&q=
+uot;)<br>=C2=A0 =C2=A0 b=3Dinput(&quot;Enter your choice&quot;)<br>=C2=A0 =
+=C2=A0 Yes=3D&#39;Yes&#39;<br>=C2=A0 =C2=A0 if b=3D=3D&#39;Yes&#39; :<br>=
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 print(&quot;Ok, Don&#39;t Stop Until You Win \n=
+Keep on Trying &quot;)<br>=C2=A0 =C2=A0 =C2=A0 =C2=A0 return game()<br>=C2=
+=A0 =C2=A0 else:<br>=C2=A0 =C2=A0 =C2=A0 =C2=A0 print(&quot;Bye, Your Win I=
+s Postponed To Next Game \nThank you For Playing&quot;)<br>print(game())<br=
+></div>
+
+--000000000000180fe906233ac0f7--
