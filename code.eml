@@ -25,11 +25,11 @@ def game():
     print("Do you want to play again?")
     print("Yes/No")
     b=input("Enter your choice")
-    Yes='Yes'
     if b=='Yes' :
         print("Ok, Don't Stop Until You Win \nKeep on Trying ")
         return game()
     else:
         print("Bye, Your Win Is Postponed To Next Game \nThank you ForPlaying")
-print(game())
+        return
+game()
 
