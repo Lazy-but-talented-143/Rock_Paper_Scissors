@@ -1,0 +1,34 @@
+def game():
+    print("*****************Welcome to Rock_Paper_ScissorsGame*****************")
+    import random
+    options=["Rock","Paper","Scissor"]
+    i=random.choice(options)
+    print("Chose from the below Three options")
+    print("Rock","Paper","Scissor")
+    a=input("Enter your value:")
+    if a==i:
+        print(f"Your choice={[ a ]}:Computer choice={[ i ]} \n['********[Game]-<Tie>-*********']")
+    elif a=="Paper" and i =="Scissor":
+        print(f"Your choice={[ a ]}:Computer choice={[ i ]} \n['********[Game]-<Lose>-********']")
+    elif a=="Rock" and i=="Paper":
+        print(f"Your choice={[ a ]}:Computer choice={[ i ]} \n['********[Game]-<Lose>-********']")
+    elif a=="Scissor" and i=="Rock":
+        print(f"Your choice={[ a ]}:Computer choice={[ i ]} \n['********[Game]-<Lose>-********']")
+    elif a=="Scissor" and i=="Paper":
+        print(f"Your choice={[ a ]}:Computer choice={[ i ]} \n['********[Game]-<Win>-********']")
+    elif a=="Paper" and i=="Rock":
+        print(f"Your choice={[ a ]}:Computer choice={[ i ]} \n['********[Game]-<Win>-********']")
+    elif a=="Rock" and i=="Scissor":
+       print(f"Your choice={[ a ]}:Computer choice={[ i ]} \n['********[Game]-<Win>-********']")
+    else:
+       print("Enter a valid choice:")
+    print("Do you want to play again?")
+    print("Yes/No")
+    b=input("Enter your choice:")
+    if b=='Yes' :
+        print("Ok, Don't Stop Until You Win \nKeep on Trying ")
+        return game()
+    else:
+        print("Bye, Your Win Is Postponed To Next Game \nThank you ForPlaying")
+        return 
+game()
